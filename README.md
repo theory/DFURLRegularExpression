@@ -3,6 +3,9 @@ DFURLRegularExpression
 
 Synopsis
 --------
+
+    #import "DFURLRegularExpression.h"
+
     NSTextCheckingResult *res = [[DFURLRegularExpression URLRegex]
         firstMatchInString:someText
         options:0
@@ -21,6 +24,11 @@ It attempts to be particularly clever with regard to parentheses only ever seem 
 
 The pattern is also liberal about Unicode glyphs within the URL, which allows it, among other things, to match IDN domain names, such as the ✪df.ws domain.
 
+Usage
+-----
+
+Just drag DFURLRegularExpression.h and DFURLRegularExpression.m into your project. Import them into whatever class you need them in and go! Here's the interface:
+
 ### +URLRegex ###
 
 Returns a regular expression for matching URLs.
@@ -38,6 +46,11 @@ Returns a regular expression for matching only web URLs -- http, https, and thin
 
 **Return Value**
 An NSRegularExpression object. Use its interface to search for web URLs in text.
+
+Testing
+-------
+
+This distribution ships with an Xcode project for running unit tests against the regular expressions. To run them, simply open the project in Xcode and build. Note that iOS 4.0 is required to use these regular expressions. Not sure if the tests can be run on Mac OS X.
 
 Author
 ------
