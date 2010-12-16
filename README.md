@@ -4,10 +4,10 @@ DFURLRegularExpression
 Synopsis
 --------
     NSTextCheckingResult *res = [[DFURLRegularExpression URLRegex]
-                                 firstMatchInString:someText
-                                 options:0
-                                 range:(NSRange)NSMakeRange(0, someText.length)
-                                 ];
+        firstMatchInString:someText
+        options:0
+        range:(NSRange)NSMakeRange(0, someText.length)
+    ];
     
     if (res.range.location != NSNotFound) {
         NSLog(@"Found URL %@", [someText substringWithRange:res.range]);
@@ -25,7 +25,7 @@ The pattern is also liberal about Unicode glyphs within the URL, which allows it
 
 Returns a regular expression for matching URLs.
 
-+ ([NSRegularExpression](http://developer.apple.com/library/ios/#documentation/Foundation/Reference/NSRegularExpression_Class/Reference/Reference.html) *)URLRegex
+\+ ([NSRegularExpression](http://developer.apple.com/library/ios/#documentation/Foundation/Reference/NSRegularExpression_Class/Reference/Reference.html) *)URLRegex
 
 **Return Value**
 An NSRegularExpression object. Use its interface to search for URLs in text.
@@ -34,7 +34,7 @@ An NSRegularExpression object. Use its interface to search for URLs in text.
 
 Returns a regular expression for matching only web URLs -- http, https, and things like “www.example.com”.
 
-+ ([NSRegularExpression](http://developer.apple.com/library/ios/#documentation/Foundation/Reference/NSRegularExpression_Class/Reference/Reference.html) *)webURLRegex
+\+ ([NSRegularExpression](http://developer.apple.com/library/ios/#documentation/Foundation/Reference/NSRegularExpression_Class/Reference/Reference.html) *)webURLRegex
 
 **Return Value**
 An NSRegularExpression object. Use its interface to search for web URLs in text.
