@@ -21,7 +21,7 @@ It attempts to be particularly clever with regard to parentheses only ever seem 
 
 The pattern is also liberal about Unicode glyphs within the URL, which allows it, among other things, to match IDN domain names, such as the ✪df.ws domain.
 
-### `+URLRegex` ###
+### +URLRegex ###
 
 Returns a regular expression for matching URLs.
 
@@ -30,7 +30,7 @@ Returns a regular expression for matching URLs.
 **Return Value**
 An NSRegularExpression object. Use its interface to search for URLs in text.
 
-### `+webURLRegex` ###
+### +webURLRegex ###
 
 Returns a regular expression for matching only web URLs -- http, https, and things like “www.example.com”.
 
