@@ -25,6 +25,7 @@
 		63D7B1E012BAC08E00C4EE1C /* no_match_urls.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = no_match_urls.txt; path = Data/no_match_urls.txt; sourceTree = "<group>"; };
 		63D7B27B12BAC8B000C4EE1C /* bad_match_urls.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bad_match_urls.txt; path = Data/bad_match_urls.txt; sourceTree = "<group>"; };
 		63D7B29112BACA6A00C4EE1C /* web_urls.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = web_urls.txt; path = Data/web_urls.txt; sourceTree = "<group>"; };
+		63D7B2BB12BACCB500C4EE1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				63D7B2BB12BACCB500C4EE1C /* README.md */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				63D7B0B212BAAE5300C4EE1C /* Tests */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
