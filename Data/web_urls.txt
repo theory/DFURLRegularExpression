@@ -1,0 +1,30 @@
+http://daringfireball.net/2010/07/improved_regex_for_matching_urls
+http://foo.com/blah_blah
+http://foo.com/blah_blah/
+https://foo.com/blah_blah/
+(Something like http://foo.com/blah_blah)
+http://foo.com/blah_blah_(wikipedia)
+http://foo.com/more_(than)_one_(parens)
+(Something like http://foo.com/blah_blah_(wikipedia))
+http://foo.com/blah_(wikipedia)#cite-1
+http://foo.com/blah_(wikipedia)_blah#cite-1
+http://foo.com/unicode_(✪)_in_parens
+http://foo.com/(something)?after=parens
+http://foo.com/blah_blah.
+http://foo.com/blah_blah/.
+<http://foo.com/blah_blah>
+<http://foo.com/blah_blah/>
+http://foo.com/blah_blah,
+http://www.extinguishedscholar.com/wpglob/?p=364.
+http://✪df.ws/1234
+http://➡.ws/䨹
+www.c.ws/䨹
+<tag>http://example.com</tag>
+Just a www.example.com link.
+http://example.com/something?with,commas,in,url, but not at end
+bit.ly/foo
+“is.gd/foo/”
+WWW.EXAMPLE.COM
+http://www.asianewsphoto.com/(S(neugxif4twuizg551ywh3f55))/Web_ENG/View_DetailPhoto.aspx?PicId=752
+http://www.asianewsphoto.com/(S(neugxif4twuizg551ywh3f55))
+http://lcweb2.loc.gov/cgi-bin/query/h?pp/horyd:@field(NUMBER+@band(thc+5a46634))

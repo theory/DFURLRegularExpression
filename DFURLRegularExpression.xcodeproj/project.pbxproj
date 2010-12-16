@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D7B0AD12BAADC800C4EE1C /* DFURLRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D7B06512BAA7D100C4EE1C /* DFURLRegularExpression.m */; };
+		63D7B0B912BAAED800C4EE1C /* DFURLRegularExpressionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D7B0B312BAAEA600C4EE1C /* DFURLRegularExpressionTest.m */; };
+		63D7B0DB12BAB08600C4EE1C /* match_urls.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63D7B06712BAA82800C4EE1C /* match_urls.txt */; };
+		63D7B1E112BAC08E00C4EE1C /* no_match_urls.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63D7B1E012BAC08E00C4EE1C /* no_match_urls.txt */; };
+		63D7B27C12BAC8B000C4EE1C /* bad_match_urls.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63D7B27B12BAC8B000C4EE1C /* bad_match_urls.txt */; };
+		63D7B29212BACA6A00C4EE1C /* web_urls.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63D7B29112BACA6A00C4EE1C /* web_urls.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63D7B06412BAA7D100C4EE1C /* DFURLRegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFURLRegularExpression.h; sourceTree = "<group>"; };
+		63D7B06512BAA7D100C4EE1C /* DFURLRegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFURLRegularExpression.m; sourceTree = "<group>"; };
+		63D7B06712BAA82800C4EE1C /* match_urls.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = match_urls.txt; path = Data/match_urls.txt; sourceTree = "<group>"; };
+		63D7B0A712BAADA300C4EE1C /* DFURLRegularExpressUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFURLRegularExpressUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D7B0B312BAAEA600C4EE1C /* DFURLRegularExpressionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFURLRegularExpressionTest.m; sourceTree = "<group>"; };
+		63D7B1E012BAC08E00C4EE1C /* no_match_urls.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = no_match_urls.txt; path = Data/no_match_urls.txt; sourceTree = "<group>"; };
+		63D7B27B12BAC8B000C4EE1C /* bad_match_urls.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bad_match_urls.txt; path = Data/bad_match_urls.txt; sourceTree = "<group>"; };
+		63D7B29112BACA6A00C4EE1C /* web_urls.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = web_urls.txt; path = Data/web_urls.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D7B0A412BAADA300C4EE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63D7B06412BAA7D100C4EE1C /* DFURLRegularExpression.h */,
+				63D7B06512BAA7D100C4EE1C /* DFURLRegularExpression.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D7B0A712BAADA300C4EE1C /* DFURLRegularExpressUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				63D7B0B212BAAE5300C4EE1C /* Tests */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63D7B06712BAA82800C4EE1C /* match_urls.txt */,
+				63D7B1E012BAC08E00C4EE1C /* no_match_urls.txt */,
+				63D7B27B12BAC8B000C4EE1C /* bad_match_urls.txt */,
+				63D7B29112BACA6A00C4EE1C /* web_urls.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D7B0B212BAAE5300C4EE1C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63D7B0B312BAAEA600C4EE1C /* DFURLRegularExpressionTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D7B0A612BAADA300C4EE1C /* DFURLRegularExpressUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D7B0AB12BAADA400C4EE1C /* Build configuration list for PBXNativeTarget "DFURLRegularExpressUnitTests" */;
+			buildPhases = (
+				63D7B0A212BAADA300C4EE1C /* Resources */,
+				63D7B0A312BAADA300C4EE1C /* Sources */,
+				63D7B0A412BAADA300C4EE1C /* Frameworks */,
+				63D7B0A512BAADA300C4EE1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFURLRegularExpressUnitTests;
+			productName = DFURLRegularExpressUnitTests;
+			productReference = 63D7B0A712BAADA300C4EE1C /* DFURLRegularExpressUnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DFURLRegularExpression" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D7B0A612BAADA300C4EE1C /* DFURLRegularExpressUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D7B0A212BAADA300C4EE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D7B0DB12BAB08600C4EE1C /* match_urls.txt in Resources */,
+				63D7B1E112BAC08E00C4EE1C /* no_match_urls.txt in Resources */,
+				63D7B27C12BAC8B000C4EE1C /* bad_match_urls.txt in Resources */,
+				63D7B29212BACA6A00C4EE1C /* web_urls.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63D7B0A512BAADA300C4EE1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D7B0A312BAADA300C4EE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D7B0AD12BAADC800C4EE1C /* DFURLRegularExpression.m in Sources */,
+				63D7B0B912BAAED800C4EE1C /* DFURLRegularExpressionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63D7B0A912BAADA400C4EE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = DFURLRegularExpressUnitTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		63D7B0AA12BAADA400C4EE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "DFURLRegularExpressUnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = DFURLRegularExpressUnitTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D7B0AB12BAADA400C4EE1C /* Build configuration list for PBXNativeTarget "DFURLRegularExpressUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D7B0A912BAADA400C4EE1C /* Debug */,
+				63D7B0AA12BAADA400C4EE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DFURLRegularExpression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
