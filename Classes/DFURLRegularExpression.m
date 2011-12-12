@@ -27,6 +27,10 @@ static NSRegularExpression *WebURLRegex = nil;
                        options:NSRegularExpressionCaseInsensitive
                        error:nil
         ];
+#if !__has_feature(objc_arc)
+        [URLRegex retain];
+        [WebURLRegex retain];
+#endif
     }
 }
 
