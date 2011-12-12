@@ -3,9 +3,9 @@
 build/*
 *.pbxuser
 *.mode1v3
-
-# old skool
-.svn
+*.xcworkspace
+xcuserdata
+dSYM_Archive
 
 # osx noise
 .DS_Store
